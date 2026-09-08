@@ -132,8 +132,21 @@ function ShaderPlane() {
       // Invert Y for WebGL coordinates
       mouseTarget.current.set(e.clientX, size.height - e.clientY);
     };
+    const handleTouchMove = (e) => {
+      if (e.touches.length > 0) {
+        mouseTarget.current.set(e.touches[0].clientX, size.height - e.touches[0].clientY);
+      }
+    };
+
     window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
+    window.addEventListener("touchmove", handleTouchMove, { passive: true });
+    window.addEventListener("touchstart", handleTouchMove, { passive: true });
+    
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("touchmove", handleTouchMove);
+      window.removeEventListener("touchstart", handleTouchMove);
+    };
   }, [size]);
 
   useFrame((state, delta) => {
