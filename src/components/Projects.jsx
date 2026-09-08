@@ -53,9 +53,7 @@ export default function Projects() {
           transition={{ duration: 0.7 }}
           className="relative glass-panel rounded-3xl p-8 md:p-12 mb-16 border-2 border-primary/20 overflow-hidden"
         >
-          <div className="absolute top-1/2 -translate-y-1/2 md:right-0 p-8 opacity-[0.03] pointer-events-none hidden md:block">
-             <Globe className="w-96 h-96" />
-          </div>
+          {/* Decorative background removed for cleaner UI */}
           
           <div className="relative z-10 grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
