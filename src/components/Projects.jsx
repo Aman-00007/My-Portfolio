@@ -54,12 +54,12 @@ const flagshipProjects = [
     keyIntegrationsTitle: "Key Architecture & AI Integrations:",
     keyIntegrations: "Powered by Google Gemini 3.1 Flash for conversational movie recommendations, an isolated iframe thermal admission pass generator (ticketPrinter.js) with instant QR verification, and automated PostgreSQL synchronizers for 2026 trailers, showtimes, and poster metadata.",
     highlights: [
-      "CineBot AI Concierge: Google Gemini 3.1 Flash integration for mood-based curation & format advice",
-      "Printable Thermal Admission Pass Engine: Isolated iframe generator with QR verification & food receipts",
-      "Physical Cinema Seating Architecture: Curved ultra-wide screen with tiered pricing (Recliner, Executive, Classic)",
-      "Dual Payment Simulation & Live Multi-Field Search: Instant UPI QR countdown + Stripe checkout with autocomplete"
+      "JWT authentication, role-based admin controls, movie discovery, and seat reservations with concurrency handling",
+      "Gemini AI recommendations and conversational cinema assistant (CineBot), plus booking management and cancellation",
+      "Gourmet snack ordering, UPI QR / Stripe payment flows, and printable tickets with QR verification",
+      "Curved ultra-wide auditorium screen with tiered physical pricing (Recliner, Executive, Classic)"
     ],
-    stack: ["React 18 (Vite)", "Node.js", "Express.js (MVC)", "PostgreSQL", "Sequelize ORM", "Gemini 3.1 Flash AI", "JWT & RBAC"],
+    stack: ["React 18 (Vite)", "Node.js", "Express.js", "PostgreSQL", "Sequelize ORM", "Gemini AI", "JWT & RBAC"],
     githubUrl: "https://github.com/Aman-00007/Movie-Ticket-web-app",
     icon: <Film className="w-10 h-10 text-rose-400" />,
     previewType: "cineverse"
@@ -68,30 +68,30 @@ const flagshipProjects = [
 
 const otherProjects = [
   {
+    title: "UniNexus",
+    subtitle: "Centralized Campus Platform",
+    category: "Campus Community Network",
+    description: "Collaborated on a centralized platform for campus clubs, events, and student communities. Developed modular backend APIs, structured feeds, and working on personalized AI recommendations.",
+    stack: ["MERN Stack", "React.js", "Node.js", "Express.js", "MongoDB", "AI Feed"],
+    githubUrl: "https://github.com/Aman-00007/UniNexus",
+    icon: <Layers className="w-8 h-8 text-indigo-400" />,
+    badgeColor: "text-indigo-400 bg-indigo-500/10 border-indigo-500/20"
+  },
+  {
     title: "YatraMitra",
-    subtitle: "Multi-Modal Travel Booking Platform",
+    subtitle: "Travel Ticket Booking Platform",
     category: "Travel & Transit Architecture",
-    description: "A comprehensive travel ticket booking web app for buses, trains, and flights featuring real-time availability, clean RESTful APIs, and modular models for cities, stations, airports, and multi-modal transit routes.",
+    description: "Built a travel booking platform supporting buses, trains, and flights, with authentication and REST APIs. Implemented CRUD operations and modular MVC-based backend architecture.",
     stack: ["Node.js", "Express.js (MVC)", "MongoDB", "REST APIs"],
     githubUrl: "https://github.com/Aman-00007/Yatramitra",
     icon: <Ticket className="w-8 h-8 text-emerald-400" />,
     badgeColor: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20"
   },
   {
-    title: "UniNexus",
-    subtitle: "Campus Event & Community Platform",
-    category: "Campus Community Network",
-    description: "A centralized campus platform unifying event discovery, club management, nested Reddit-style threaded discussions (Materialized Path pattern in MongoDB), and AI-powered thread summarization.",
-    stack: ["React.js", "Node.js", "Express.js", "MongoDB", "AWS S3", "LangChain"],
-    githubUrl: "https://github.com/Aman-00007/UniNexus",
-    icon: <Layers className="w-8 h-8 text-indigo-400" />,
-    badgeColor: "text-indigo-400 bg-indigo-500/10 border-indigo-500/20"
-  },
-  {
-    title: "Real-Time ECG Monitoring System",
-    subtitle: "IoT & Healthcare ML Classifier",
+    title: "Real-Time ECG Monitoring & Diagnostic System",
+    subtitle: "IoT & Healthcare ML",
     category: "IoT & Healthcare ML",
-    description: "An integrated hardware-software IoT system for cardiac abnormality prediction using an AD8232 ECG sensor, ESP32 microcontroller, ML classification, and live telemetry web dashboard.",
+    description: "Built an ECG monitoring system using ESP32 and AD8232, streaming sensor data to a web dashboard for visualization. Explored machine learning for cardiac abnormality prediction.",
     stack: ["ESP32", "AD8232 Sensor", "Machine Learning", "Web Dashboard"],
     icon: <Activity className="w-8 h-8 text-rose-400" />,
     badgeColor: "text-rose-400 bg-rose-500/10 border-rose-500/20"

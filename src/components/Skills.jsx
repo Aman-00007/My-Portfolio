@@ -6,7 +6,7 @@ const skillCategories = [
   {
     title: "Languages",
     icon: <Code className="w-6 h-6 mb-4 text-emerald-400" />,
-    skills: ["C", "C++", "Python", "JavaScript", "Java"],
+    skills: ["C", "C++", "JavaScript", "Python", "Java (Basics)"],
   },
   {
     title: "Frontend",
@@ -14,24 +14,24 @@ const skillCategories = [
     skills: ["HTML5", "CSS3", "React.js", "Vite", "React Router DOM", "jQuery", "Tailwind CSS"],
   },
   {
-    title: "Backend & APIs",
+    title: "Backend & Stacks",
     icon: <Server className="w-6 h-6 mb-4 text-rose-400" />,
-    skills: ["Node.js", "Express.js", "RESTful APIs", "JWT Auth", "MVC Architecture", "Sequelize ORM", "Multer"],
+    skills: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "MVC Architecture", "Sequelize ORM", "MERN Stack", "PERN Stack"],
   },
   {
     title: "Databases",
     icon: <Database className="w-6 h-6 mb-4 text-blue-400" />,
-    skills: ["PostgreSQL", "MongoDB", "MySQL"],
+    skills: ["MongoDB", "PostgreSQL", "MySQL"],
   },
   {
     title: "Libraries & Tools",
     icon: <Library className="w-6 h-6 mb-4 text-yellow-400" />,
-    skills: ["Pandas", "Matplotlib", "NetworkX", "Git", "GitHub", "Postman"],
+    skills: ["NumPy", "Pandas", "Matplotlib", "NetworkX", "Git", "GitHub", "VS Code", "Postman", "Android Studio"],
   },
   {
-    title: "Core & Integrations",
+    title: "Core & Certifications",
     icon: <Settings className="w-6 h-6 mb-4 text-purple-400" />,
-    skills: ["Data Structures & Algorithms", "System Design", "OOP", "DBMS", "Setu Account Aggregator API", "Google Gemini 3.1 Flash AI"],
+    skills: ["DSA (500+ Solved)", "OOP", "DBMS", "Operating Systems", "Computer Networks", "Google Cloud Generative AI", "Forage SWE Simulation"],
   },
 ];
 
