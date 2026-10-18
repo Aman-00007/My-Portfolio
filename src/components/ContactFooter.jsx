@@ -122,7 +122,7 @@ export default function ContactFooter() {
               </a>
             ))}
             <a
-              href="/My_resume.pdf"
+              href="./My_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary/80 text-foreground transition-all duration-300 hover:scale-110 hover:text-primary flex items-center justify-center"
