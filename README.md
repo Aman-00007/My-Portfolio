@@ -17,6 +17,7 @@ A sleek, modern, and highly interactive personal portfolio website showcasing my
 - **[Sphere (Unified Bank & Loan Management Platform)](https://github.com/Aman-00007/Sphere)**: FinTech platform featuring multi-bank aggregation across 7 institutions, automated loan eligibility scoring, Setu Account Aggregator sandbox verification, and interactive debt payoff accelerators.
 - **[CineVerse (Next-Gen Cinema & 2026 Ticket Booking Platform)](https://github.com/Aman-00007/Movie-Ticket-web-app)**: Full-stack cinema ticketing & theatre management platform with Google Gemini 3.1 Flash AI Concierge (CineBot), physical tiered seating, printable thermal admission passes with QR verification, and real-time 2026 movie bookings.
 - **[YatraMitra](https://github.com/Aman-00007/Yatramitra)**: Multi-modal travel booking platform for buses, trains, and flights with real-time seat availability and modular backend architecture.
+- **[UniNexus](https://github.com/Aman-00007/UniNexus)**: Campus event and community platform unifying event discovery, club management, nested Reddit-style discussions, and AI thread summarization.
 
 ## 🛠️ Tech Stack
 

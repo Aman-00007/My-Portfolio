@@ -78,11 +78,12 @@ const otherProjects = [
     badgeColor: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20"
   },
   {
-    title: "UNINEXUS",
-    subtitle: "Centralized Campus Platform",
+    title: "UniNexus",
+    subtitle: "Campus Event & Community Platform",
     category: "Campus Community Network",
-    description: "A centralized campus platform designed with an AI-powered personalized feed system for university clubs, events, and student organization engagement.",
-    stack: ["MongoDB", "Express.js", "React.js", "Node.js", "AI Integration"],
+    description: "A centralized campus platform unifying event discovery, club management, nested Reddit-style threaded discussions (Materialized Path pattern in MongoDB), and AI-powered thread summarization.",
+    stack: ["React.js", "Node.js", "Express.js", "MongoDB", "AWS S3", "LangChain"],
+    githubUrl: "https://github.com/Aman-00007/UniNexus",
     icon: <Layers className="w-8 h-8 text-indigo-400" />,
     badgeColor: "text-indigo-400 bg-indigo-500/10 border-indigo-500/20"
   },
