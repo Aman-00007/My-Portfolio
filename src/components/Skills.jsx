@@ -16,7 +16,7 @@ const skillCategories = [
   {
     title: "Backend & APIs",
     icon: <Server className="w-6 h-6 mb-4 text-rose-400" />,
-    skills: ["Node.js", "Express.js", "RESTful APIs", "JWT Auth", "MVC Architecture", "Multer"],
+    skills: ["Node.js", "Express.js", "RESTful APIs", "JWT Auth", "MVC Architecture", "Sequelize ORM", "Multer"],
   },
   {
     title: "Databases",
@@ -31,7 +31,7 @@ const skillCategories = [
   {
     title: "Core & Integrations",
     icon: <Settings className="w-6 h-6 mb-4 text-purple-400" />,
-    skills: ["Data Structures & Algorithms", "OOP", "DBMS", "OS", "Setu Account Aggregator API", "Google Cloud Gen AI"],
+    skills: ["Data Structures & Algorithms", "System Design", "OOP", "DBMS", "Setu Account Aggregator API", "Google Gemini 3.1 Flash AI"],
   },
 ];
 

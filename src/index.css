@@ -77,3 +77,15 @@
 .glass-panel {
   @apply bg-card/40 backdrop-blur-lg border border-border/30 shadow-xl;
 }
+
+/* Modern layout containment for smooth interactions */
+.project-card-containment {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 550px;
+}
+@supports not (content-visibility: auto) {
+  .project-card-containment {
+    contain: layout style paint;
+  }
+}
+
